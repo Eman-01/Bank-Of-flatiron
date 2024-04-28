@@ -1,0 +1,24 @@
+body{
+  text-align: center;
+  
+}
+.header{
+  background-color: blueviolet;
+  color: white;
+}
+.search{
+  width: 100%;
+}
+.form{
+  width: 100%;
+}
+.btn{
+  background-color: green;
+  color: white;
+}
+.table{
+  display: inline-block;
+ justify-content: center;
+ border-collapse: separate; 
+  border-spacing: 10px;
+}
