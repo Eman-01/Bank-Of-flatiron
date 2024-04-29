@@ -16,9 +16,15 @@ body{
   background-color: green;
   color: white;
 }
-.table{
-  display: inline-block;
- justify-content: center;
- border-collapse: separate; 
-  border-spacing: 10px;
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th, .table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+.table th {
+  background-color: gray;
 }
